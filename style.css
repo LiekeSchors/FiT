@@ -1,0 +1,127 @@
+.navigation { 
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.navigation a {
+background: #000000;
+border: 3px solid black;
+border-radius: 5px;
+color: rgb(255, 112, 184);
+display: inline-block;
+margin: 20px;
+padding: 20px;
+text-decoration: none;
+box-shadow: 0px 5px;
+font-size: 24px;
+}
+
+.navigation a:hover {
+background: #17f903;
+border: 1px solid #13d9f8;
+color: rgb(255, 255, 255);
+}
+
+.navigation a:active {
+margin-top: 5px;
+margin-bottom: 5px;
+box-shadow: 0px 0px;
+background-color: rgb(0, 0, 255);
+color: #ffffff;
+}
+
+.navigation a.now {
+background: rgb(247, 243, 243);
+box-shadow: 0 0;
+border: 3px solid black;
+color: black;
+}
+
+  body {
+    font-family: Arial, sans serif;
+    margin: 0;
+    padding: 0;
+    background-color: #968e73;
+  }
+
+  header {
+    background-color: #ffffff;
+    color: #968e73;
+    font-weight: bolder;
+    padding: 10px 0;
+    margin: 3% 5%;
+    text-align: center;
+  }
+
+  h2 {
+    color: #968e73;
+  }
+
+  header h1 {
+    margin: 10;
+  }
+
+  section {
+    background-color: white;
+    padding: 50px;
+    margin: 20% 5%;
+  }
+
+  #ich {
+    margin: 5% 5%;
+  }
+
+  footer {
+    background-color: #ffffff;
+    padding: 10px 0;
+    margin: 10;
+  }
+  
+  img {
+    text-align: center;
+    width: 40%;
+    margin: 3% 3%;
+    padding-left: 3%;
+  }
+
+  #fragezeichen {
+    text-align: right;
+    width: 35%;
+    margin: 5%;
+  }
+
+  #bild3 {
+    display: inline block;
+    width: 25%;
+    margin: 2%;
+  }
+
+  #bild4 {
+      display: inline block;
+      width: 8%;
+      margin: 5%;
+    }
+
+  table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: #777355;
+    color: #ffffff;
+  }
+
+  td {
+    border: 1px solid;
+    text-align: center;
+    height: 50px;
+  }
+
+  #schluss {
+    text-align: center;
+  }
